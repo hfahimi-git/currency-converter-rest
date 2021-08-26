@@ -12,6 +12,8 @@
 	<artifactId>currency-converterImpl-rest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+<!--	uncomment line below to make jar file-->
+	<!--	<packaging>jar</packaging>-->
 	<name>currency-converter-rest</name>
 	<description>The Assignment - Java Currency Converter</description>
 	<properties>
@@ -49,6 +51,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>2.5.4</version>
+				<configuration>
+					<mainClass>com.hfahimi.currencyconverterrest.CurrencyConverterRestApplication</mainClass>
+					<layout>ZIP</layout>
+				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
