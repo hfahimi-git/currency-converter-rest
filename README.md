@@ -8,7 +8,7 @@ after running the application by `./mvnw spring-boot:run` or `java -jar currency
 &amount=&lt;amount of money&gt;
 
 # Example
-localhost:8080/convert?source=aud&target=usssdd&amount=1450000
+localhost:8080/convert?source=aud&target=usd&amount=1450000
 
 # response
 
